@@ -121,14 +121,14 @@ return [
         'nodes'           => [
           [
             'host'     => 'localhost',
-            'port'     => '8108',
+            'port'     => '20863',
             'path'     => '',
             'protocol' => 'http',
           ],
         ],
         'nearest_node'    => [
             'host'     => 'localhost',
-            'port'     => '8108',
+            'port'     => '20863',
             'path'     => '',
             'protocol' => 'http',
         ],
