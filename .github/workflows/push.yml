@@ -64,6 +64,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: arayiksmbatyan/scout-import-tests
+          ref: 'staging'
 
       - name: Composer Validate
         run: composer validate
