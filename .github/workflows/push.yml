@@ -15,5 +15,5 @@ jobs:
           sudo apt update && sudo apt install mysql-server
           sudo service mysql start
           sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';"
-          mysql -uroot -ppassword  -e "ALTER USER 'default'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
+#          mysql -uroot -ppassword  -e "ALTER USER 'default'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
 #          mysql -udefault -proot -e 'CREATE SCHEMA `test` CHARACTER SET utf8 COLLATE utf8_general_ci; GRANT ALL ON `test`.* TO default@localhost IDENTIFIED BY "root"; FLUSH PRIVILEGES;'
