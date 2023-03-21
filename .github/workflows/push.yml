@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Install MySQL client
         run: sudo apt-get update && sudo apt-get install mysql-client
+      - name: Run MySQL client
+        run: sudo service mysql start
 
       - name: Run SQL script
         run: |
