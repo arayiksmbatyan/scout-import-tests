@@ -16,4 +16,4 @@ jobs:
 
       - name: Run SQL script
         run: |
-          mysql -h 127.0.0.1 -u root -p'root' -e "CREATE DATABASE 'test';"
+          mysql -h 127.0.0.1 -u root -p'root' -e "CREATE DATABASE test;"
