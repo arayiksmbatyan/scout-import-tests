@@ -20,6 +20,8 @@ jobs:
           --collation-server=utf8mb4_unicode_ci
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Install MySQL client
         run: sudo apt-get update && sudo apt-get install mysql-client
 
